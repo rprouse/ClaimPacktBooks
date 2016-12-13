@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ClaimFreeBook
 {
@@ -9,6 +6,14 @@ namespace ClaimFreeBook
     {
         public static void Main(string[] args)
         {
+            var packt = new Packt();
+            packt.ClaimFreeBook().Wait();
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine();
+            Console.WriteLine("*** Press ENTER to Exit ***");
+            Console.ReadLine();
+            Console.ResetColor();
         }
     }
 }
