@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.26510.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{87935041-F131-4072-8212-CD99F89837E5}"
 EndProject
@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClaimFreeBook", "src\ClaimFreeBook\ClaimFreeBook.csproj", "{88817342-6728-4B71-BD38-1EE9B54BE943}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClaimBookFunction", "src\ClaimBookFunction\ClaimBookFunction.csproj", "{82125858-4899-4F4C-B91D-3344298C59BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,11 +25,16 @@ Global
 		{88817342-6728-4B71-BD38-1EE9B54BE943}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88817342-6728-4B71-BD38-1EE9B54BE943}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88817342-6728-4B71-BD38-1EE9B54BE943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82125858-4899-4F4C-B91D-3344298C59BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82125858-4899-4F4C-B91D-3344298C59BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82125858-4899-4F4C-B91D-3344298C59BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82125858-4899-4F4C-B91D-3344298C59BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{88817342-6728-4B71-BD38-1EE9B54BE943} = {87935041-F131-4072-8212-CD99F89837E5}
+		{82125858-4899-4F4C-B91D-3344298C59BE} = {87935041-F131-4072-8212-CD99F89837E5}
 	EndGlobalSection
 EndGlobal

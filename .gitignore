@@ -243,3 +243,6 @@ ModelManifest.xml
 
 # .NET Core
 src/ClaimFreeBook/Properties/launchSettings.json
+
+# Azure Functions
+local.settings.json
